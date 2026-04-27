@@ -149,7 +149,16 @@ $print(results ) =  0.00000,  20.00000, 37.77778$
 
 c) Write a function called `profit` that takes `revenue` and `cost` as arguments and returns profit. Include a default argument `tax_rate = 0.25` that reduces profit by that percentage.
 
+profit <- function(revenue, cost, tax_rate = 0.25) { p <- (revenue - cost)* (1-tax_rate)
+
+return(p)
+}
+
 d) Use your profit function to calculate after-tax profit when revenue = $50,000, cost = $30,000, and tax rate = 20%
+
+profit(50000, 30000, tax_rate = 0.20)
+
+$16,000$ Dollars 
 
 ---
 
