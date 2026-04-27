@@ -97,13 +97,37 @@ sqrt(64) / 2^2
 
 a) Create a vector called `yields` containing the following wheat yields (bushels/acre): 45, 52, 48, 55, 50, 47, 53
 
+$yields <- c( 45, 52, 48, 55, 50, 47, 53)$
+
 b) Calculate the mean, standard deviation, minimum, and maximum of `yields`
+
+$mean(yields) = 50$
+
+$sd(yields) = 3.559$
+
+$min(yields) = 45$
+
+$max(yields) = 55$
+
 
 c) How many observations are above the mean? (Use logical indexing)
 
+$sum(yields>mean(yields)) = 3$
+
 d) Create a new vector `high_yields` containing only yields above 50 bushels/acre
 
+$high_yields <- c(52, 55,53)$
+
+
 e) If the price of wheat is $6.50 per bushel, create a vector `revenues` showing revenue per acre for each observation
+$yields <- c(45, 52, 48, 55, 50, 47, 53)$
+
+$price <- 6.50$
+
+$revenues <- yields * price$
+
+$print(revenues)$ = $292.5, 338.0, 312.0, 357.5, 325.0, 305.5, 344.5$
+
 
 ---
 
@@ -111,7 +135,17 @@ e) If the price of wheat is $6.50 per bushel, create a vector `revenues` showing
 
 a) Write a function called `fahrenheit_to_celsius` that converts temperature from Fahrenheit to Celsius using the formula: $C = \frac{5}{9}(F - 32)$
 
+$fahrenheit_to_celsius <- function (F) { C <- (5/9) * (F-32) 
+return(C)
+}$
+
 b) Test your function with F = 32, 68, and 100
+
+$test_values <- c(32, 68, 100)$
+
+$results <- fahrenheit_to_celsius (test_values)$
+
+$print(results ) =  0.00000,  20.00000, 37.77778$
 
 c) Write a function called `profit` that takes `revenue` and `cost` as arguments and returns profit. Include a default argument `tax_rate = 0.25` that reduces profit by that percentage.
 
