@@ -16,9 +16,18 @@ Complete all problems. Show your work for analytical questions and include R cod
 
 a) Explain why economists use mathematical models rather than purely verbal analysis. Give two specific advantages.
 
+1. Mathematical models can easly help to explain the realationship between variables in a simple way example for the demand equation Demand: $Q_d = 500 - 10P$ explain One unit change im price leads to 10 units change in quantity which is not easy to explain in word 
+2. Mathematical models help to solve and analyze the problem through in a simple way Example To Market equaillibrium for the Coomodity X in the demand and supply of the commodity , we create The demand and supply and equate Demand: $Q_d = 500 - 10P$
+- Supply: $Q_s = -100 + 20P$ Then solving for  $P*$ and $Q*$, This can not easly be solved by words 
+
 b) What is the difference between an *exogenous* variable and an *endogenous* variable in an economic model? Provide an example of each in a supply-demand model.
+Exogeneous variables the one which can influence the model but can not be explained by the model example in the demand Model , Income and wheather are the expgeneous factors 
+
+Indogeneous factos are the one which ifluence the model and are explained by the model, example in the demand equation price and quantity are the indogeneous variables 
 
 c) Consider the statement: "A good economic model should include every real-world detail." Do you agree or disagree? Explain.
+
+I disagree with the steteent , because the model is aimed at finding the relationship between variables and coeeficient of those variables which can easlily be interpreted easily , therefore for the model to function properly there should be assumprions which might hold some factors constant. But including everything in the model is imposible since the model wil be complex and difficult to solve.
 
 ---
 
@@ -26,15 +35,15 @@ c) Consider the statement: "A good economic model should include every real-worl
 
 For each of the following real-world scenarios, identify which topic area from this course would be most relevant. Choose from: Consumer Theory, Producer Theory, Market Equilibrium, Trade Policy, Uncertainty, or Linear Programming.
 
-a) A farmer deciding how much fertilizer to apply to maximize profit
+a) A farmer deciding how much fertilizer to apply to maximize profit- Producer theory 
 
-b) The government evaluating the welfare effects of removing wheat import tariffs
+b) The government evaluating the welfare effects of removing wheat import tariffs-Trade policy 
 
-c) A household choosing between organic and conventional vegetables given their budget
+c) A household choosing between organic and conventional vegetables given their budget-Consumer theory 
 
-d) An agricultural cooperative deciding how to allocate limited water across different crops
+d) An agricultural cooperative deciding how to allocate limited water across different crops-Linear programming 
 
-e) A grain trader considering whether to hedge against price risk using futures contracts
+e) A grain trader considering whether to hedge against price risk using futures contracts- Uncertainty
 
 ---
 
