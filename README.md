@@ -53,6 +53,27 @@ e) A grain trader considering whether to hedge against price risk using futures 
 
 Without using R first, predict the output of each expression. Then verify in R.
 
+a) 
+ $3 + 5 * 2 = 13$
+
+ b)
+$(3 + 5) * 2 = 16$
+
+c) 
+`17 %% 5 = 2`
+
+ d)
+$log(exp(3)) = 3$
+
+e)
+$sqrt(64) / 2^2 = 2$
+
+
+
+
+
+
+
 ```r
 # a) 
 3 + 5 * 2
